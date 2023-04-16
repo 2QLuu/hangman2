@@ -131,6 +131,10 @@ def display_hangman(tries):
     ]
     print(stages[10 - tries])
 
+
+##the actuall programm
+
+
 while True:
     print(unknown_word)
     char = input("guess: ").lower()
@@ -144,7 +148,7 @@ while True:
         for i in range(0, len(word)):
             if char == word[i]:
                 unknown_word[i] = char
-    else: 
+    else:
         print('incorrect!')
         tries -= 1
         print(f"tries remaining {tries}")
