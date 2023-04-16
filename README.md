@@ -54,3 +54,7 @@ Overall, the data model is simple yet effective for implementing the Hangman gam
 
 - __Exsisting Bugs__
         - the figure code to display the hangman figure didnt pass through the PEP8 validator, i had to play around with it a lot but it was impossible to get the hangman figure right with no errors in the PEP8 validator.
+
+## Issues 
+
+    - I have an issue with Heroku that i cant create a new app if i dont have a verified american credit card connected to my account, but since i dont live in the USA i obvously cant bind my credit card to my Heroku account with makes me unable to upload anything there.
