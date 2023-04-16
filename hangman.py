@@ -21,10 +21,14 @@ while True:
     if char in word:
         print("correct")
         for i in range(0, len(word)):
-            print(char, word[i])
             if char == word[i]:
                 unknown_word[i] = char
 
     else: 
         print("incorrect")
         trys -= 1
+
+
+    if "_" not in unknown_word:
+        print("winner! you won")
+        break
