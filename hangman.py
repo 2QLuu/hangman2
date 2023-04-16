@@ -25,10 +25,15 @@ while True:
                 unknown_word[i] = char
 
     else: 
-        print("incorrect")
         trys -= 1
+        print(f"trys remaining {trys}")
+        
 
 
     if "_" not in unknown_word:
         print("winner! you won")
         break
+    elif trys <= 0:
+        print("you lost!")
+        break    
+
