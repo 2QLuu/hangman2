@@ -45,6 +45,7 @@ while True:
                 unknown_word[i] = char
 
     else: 
+        print('incorrect!')
         trys -= 1
         print(f"trys remaining {trys}")
         
