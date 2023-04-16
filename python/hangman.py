@@ -132,7 +132,7 @@ def display_hangman(tries):
     print(stages[10 - tries])
 
 
-##the actuall programm
+##Main code area
 
 
 while True:
@@ -155,8 +155,8 @@ while True:
         display_hangman(tries)
 
     if "_" not in unknown_word:
-        print("winner! you won")
+        print(f"Good job you won! the word was {word}")
         break
     elif tries <= 0:
-        print("you lost!")
+        print(f"you lost! the word was {word}")
         break
